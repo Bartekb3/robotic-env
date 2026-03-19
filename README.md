@@ -1,6 +1,7 @@
 # Robotic Agent Environment
 
 Developed for purposes of Agents and Multi-Agent Systems course at Warsaw University of Technology 2026.
+<img width="1322" height="678" alt="image" src="https://github.com/user-attachments/assets/625d77b0-7803-43cb-9fcc-c002ecd5a6df" />
 
 ## Requirements
 
