@@ -1,0 +1,36 @@
+{
+  "world": {
+    "size_x": 20,
+    "size_y": 20,
+    "background_color": "#87CEEB"
+  },
+  "robot": {
+    "id": "robot",
+    "x": 0,
+    "y": 0,
+    "rotation": 0,
+    "speed": 3.0,
+    "rotation_speed": 180.0,
+    "grab_range": 1.5,
+    "camera_fov": 60.0
+  },
+  "objects": [
+    {
+      "type": "wall",
+      "id": "wall1",
+      "x": 5,
+      "y": 0,
+      "width": 1,
+      "height": 6,
+      "color": "#795548"
+    },
+    {
+      "type": "ball",
+      "id": "ball1",
+      "x": -3,
+      "y": 3,
+      "radius": 0.3,
+      "color": "#F44336"
+    }
+  ]
+}
