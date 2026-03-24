@@ -81,7 +81,7 @@ class RobotControllerAgent(ReActAgent):
         system_prompt: str,
     ):
         tools = _build_tools(connector, base_url)
-        llm = get_llm_model("complex_model", config_path="./test_config.toml")
+        llm = get_llm_model("complex_model", config_path="./config.toml")
         print(llm)
         super().__init__(
             target_connectors={},

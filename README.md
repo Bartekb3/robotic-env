@@ -29,3 +29,8 @@ python agent_exercise.py
 ```
 
 To run the agent.
+
+## Troubleshooting
+
+Known bug has been identified when running on Windows, with the package `uvloop`.
+If running on Windows before installing with `pip` edit `requirements.txt` and remove te line containing `uvloop==0.22.1`.
